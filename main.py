@@ -28,5 +28,5 @@ def func(*arg):
     lst = [i for i in range(10)]
     t = tuple(lst)
     return t
-tuple = func()
-print(tuple)
+n = func()
+print(n)
